@@ -1,0 +1,20 @@
+﻿@page
+@model IndexModel
+@{ ViewData["Title"] = "Home page"; }
+@{ Layout = null; }
+<html>
+<head>
+</head>
+<body>
+    <div class="text-center">
+        <h1 class="display-4">図面検索</h1>
+    </div>
+    <form method="post">
+        <p style="text-align:center">
+            <br><input type="text" name="loginid" placeholder="ログイン（企業）ID">
+            <input type="text" name="password" placeholder="パスワード">
+            <input type="submit" value="ログイン">
+        </p>
+    </form>
+</body>
+</html>
